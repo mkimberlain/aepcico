@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E2B509021F5CDBD900DCABAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B509011F5CDBD900DCABAF /* AppDelegate.swift */; };
+		E2B509041F5CDBD900DCABAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B509031F5CDBD900DCABAF /* ViewController.swift */; };
+		E2B509071F5CDBD900DCABAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2B509051F5CDBD900DCABAF /* Main.storyboard */; };
+		E2B509091F5CDBD900DCABAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2B509081F5CDBD900DCABAF /* Assets.xcassets */; };
+		E2B5090C1F5CDBD900DCABAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2B5090A1F5CDBD900DCABAF /* LaunchScreen.storyboard */; };
+		E2B509171F5CDBD900DCABAF /* AEP_CICOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B509161F5CDBD900DCABAF /* AEP_CICOTests.swift */; };
+		E2B509221F5CDBD900DCABAF /* AEP_CICOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B509211F5CDBD900DCABAF /* AEP_CICOUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E2B509131F5CDBD900DCABAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2B508F61F5CDBD900DCABAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2B508FD1F5CDBD900DCABAF;
+			remoteInfo = "AEP CICO";
+		};
+		E2B5091E1F5CDBD900DCABAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2B508F61F5CDBD900DCABAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2B508FD1F5CDBD900DCABAF;
+			remoteInfo = "AEP CICO";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E2B508FE1F5CDBD900DCABAF /* AEP CICO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AEP CICO.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2B509011F5CDBD900DCABAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E2B509031F5CDBD900DCABAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E2B509061F5CDBD900DCABAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E2B509081F5CDBD900DCABAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2B5090B1F5CDBD900DCABAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E2B5090D1F5CDBD900DCABAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2B509121F5CDBD900DCABAF /* AEP CICOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AEP CICOTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2B509161F5CDBD900DCABAF /* AEP_CICOTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AEP_CICOTests.swift; sourceTree = "<group>"; };
+		E2B509181F5CDBD900DCABAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2B5091D1F5CDBD900DCABAF /* AEP CICOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AEP CICOUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2B509211F5CDBD900DCABAF /* AEP_CICOUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AEP_CICOUITests.swift; sourceTree = "<group>"; };
+		E2B509231F5CDBD900DCABAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2B508FB1F5CDBD900DCABAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2B5090F1F5CDBD900DCABAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2B5091A1F5CDBD900DCABAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E2B508F51F5CDBD800DCABAF = {
+			isa = PBXGroup;
+			children = (
+				E2B509001F5CDBD900DCABAF /* AEP CICO */,
+				E2B509151F5CDBD900DCABAF /* AEP CICOTests */,
+				E2B509201F5CDBD900DCABAF /* AEP CICOUITests */,
+				E2B508FF1F5CDBD900DCABAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E2B508FF1F5CDBD900DCABAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2B508FE1F5CDBD900DCABAF /* AEP CICO.app */,
+				E2B509121F5CDBD900DCABAF /* AEP CICOTests.xctest */,
+				E2B5091D1F5CDBD900DCABAF /* AEP CICOUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2B509001F5CDBD900DCABAF /* AEP CICO */ = {
+			isa = PBXGroup;
+			children = (
+				E2B509011F5CDBD900DCABAF /* AppDelegate.swift */,
+				E2B509031F5CDBD900DCABAF /* ViewController.swift */,
+				E2B509051F5CDBD900DCABAF /* Main.storyboard */,
+				E2B509081F5CDBD900DCABAF /* Assets.xcassets */,
+				E2B5090A1F5CDBD900DCABAF /* LaunchScreen.storyboard */,
+				E2B5090D1F5CDBD900DCABAF /* Info.plist */,
+			);
+			path = "AEP CICO";
+			sourceTree = "<group>";
+		};
+		E2B509151F5CDBD900DCABAF /* AEP CICOTests */ = {
+			isa = PBXGroup;
+			children = (
+				E2B509161F5CDBD900DCABAF /* AEP_CICOTests.swift */,
+				E2B509181F5CDBD900DCABAF /* Info.plist */,
+			);
+			path = "AEP CICOTests";
+			sourceTree = "<group>";
+		};
+		E2B509201F5CDBD900DCABAF /* AEP CICOUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E2B509211F5CDBD900DCABAF /* AEP_CICOUITests.swift */,
+				E2B509231F5CDBD900DCABAF /* Info.plist */,
+			);
+			path = "AEP CICOUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2B508FD1F5CDBD900DCABAF /* AEP CICO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2B509261F5CDBD900DCABAF /* Build configuration list for PBXNativeTarget "AEP CICO" */;
+			buildPhases = (
+				E2B508FA1F5CDBD900DCABAF /* Sources */,
+				E2B508FB1F5CDBD900DCABAF /* Frameworks */,
+				E2B508FC1F5CDBD900DCABAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AEP CICO";
+			productName = "AEP CICO";
+			productReference = E2B508FE1F5CDBD900DCABAF /* AEP CICO.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E2B509111F5CDBD900DCABAF /* AEP CICOTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2B509291F5CDBD900DCABAF /* Build configuration list for PBXNativeTarget "AEP CICOTests" */;
+			buildPhases = (
+				E2B5090E1F5CDBD900DCABAF /* Sources */,
+				E2B5090F1F5CDBD900DCABAF /* Frameworks */,
+				E2B509101F5CDBD900DCABAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2B509141F5CDBD900DCABAF /* PBXTargetDependency */,
+			);
+			name = "AEP CICOTests";
+			productName = "AEP CICOTests";
+			productReference = E2B509121F5CDBD900DCABAF /* AEP CICOTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E2B5091C1F5CDBD900DCABAF /* AEP CICOUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2B5092C1F5CDBD900DCABAF /* Build configuration list for PBXNativeTarget "AEP CICOUITests" */;
+			buildPhases = (
+				E2B509191F5CDBD900DCABAF /* Sources */,
+				E2B5091A1F5CDBD900DCABAF /* Frameworks */,
+				E2B5091B1F5CDBD900DCABAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2B5091F1F5CDBD900DCABAF /* PBXTargetDependency */,
+			);
+			name = "AEP CICOUITests";
+			productName = "AEP CICOUITests";
+			productReference = E2B5091D1F5CDBD900DCABAF /* AEP CICOUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2B508F61F5CDBD900DCABAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Matt Kimberlain";
+				TargetAttributes = {
+					E2B508FD1F5CDBD900DCABAF = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = PEENMZFAW5;
+						ProvisioningStyle = Automatic;
+					};
+					E2B509111F5CDBD900DCABAF = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = PEENMZFAW5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E2B508FD1F5CDBD900DCABAF;
+					};
+					E2B5091C1F5CDBD900DCABAF = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = PEENMZFAW5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E2B508FD1F5CDBD900DCABAF;
+					};
+				};
+			};
+			buildConfigurationList = E2B508F91F5CDBD900DCABAF /* Build configuration list for PBXProject "AEP CICO" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E2B508F51F5CDBD800DCABAF;
+			productRefGroup = E2B508FF1F5CDBD900DCABAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2B508FD1F5CDBD900DCABAF /* AEP CICO */,
+				E2B509111F5CDBD900DCABAF /* AEP CICOTests */,
+				E2B5091C1F5CDBD900DCABAF /* AEP CICOUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2B508FC1F5CDBD900DCABAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2B5090C1F5CDBD900DCABAF /* LaunchScreen.storyboard in Resources */,
+				E2B509091F5CDBD900DCABAF /* Assets.xcassets in Resources */,
+				E2B509071F5CDBD900DCABAF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2B509101F5CDBD900DCABAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2B5091B1F5CDBD900DCABAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2B508FA1F5CDBD900DCABAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2B509041F5CDBD900DCABAF /* ViewController.swift in Sources */,
+				E2B509021F5CDBD900DCABAF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2B5090E1F5CDBD900DCABAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2B509171F5CDBD900DCABAF /* AEP_CICOTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2B509191F5CDBD900DCABAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2B509221F5CDBD900DCABAF /* AEP_CICOUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E2B509141F5CDBD900DCABAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2B508FD1F5CDBD900DCABAF /* AEP CICO */;
+			targetProxy = E2B509131F5CDBD900DCABAF /* PBXContainerItemProxy */;
+		};
+		E2B5091F1F5CDBD900DCABAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2B508FD1F5CDBD900DCABAF /* AEP CICO */;
+			targetProxy = E2B5091E1F5CDBD900DCABAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E2B509051F5CDBD900DCABAF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2B509061F5CDBD900DCABAF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E2B5090A1F5CDBD900DCABAF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2B5090B1F5CDBD900DCABAF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E2B509241F5CDBD900DCABAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E2B509251F5CDBD900DCABAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2B509271F5CDBD900DCABAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PEENMZFAW5;
+				INFOPLIST_FILE = "AEP CICO/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Transmission.AEP-CICO";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E2B509281F5CDBD900DCABAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PEENMZFAW5;
+				INFOPLIST_FILE = "AEP CICO/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Transmission.AEP-CICO";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E2B5092A1F5CDBD900DCABAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PEENMZFAW5;
+				INFOPLIST_FILE = "AEP CICOTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Transmission.AEP-CICOTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AEP CICO.app/AEP CICO";
+			};
+			name = Debug;
+		};
+		E2B5092B1F5CDBD900DCABAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PEENMZFAW5;
+				INFOPLIST_FILE = "AEP CICOTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Transmission.AEP-CICOTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AEP CICO.app/AEP CICO";
+			};
+			name = Release;
+		};
+		E2B5092D1F5CDBD900DCABAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = PEENMZFAW5;
+				INFOPLIST_FILE = "AEP CICOUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Transmission.AEP-CICOUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "AEP CICO";
+			};
+			name = Debug;
+		};
+		E2B5092E1F5CDBD900DCABAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = PEENMZFAW5;
+				INFOPLIST_FILE = "AEP CICOUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Transmission.AEP-CICOUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "AEP CICO";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2B508F91F5CDBD900DCABAF /* Build configuration list for PBXProject "AEP CICO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2B509241F5CDBD900DCABAF /* Debug */,
+				E2B509251F5CDBD900DCABAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2B509261F5CDBD900DCABAF /* Build configuration list for PBXNativeTarget "AEP CICO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2B509271F5CDBD900DCABAF /* Debug */,
+				E2B509281F5CDBD900DCABAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E2B509291F5CDBD900DCABAF /* Build configuration list for PBXNativeTarget "AEP CICOTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2B5092A1F5CDBD900DCABAF /* Debug */,
+				E2B5092B1F5CDBD900DCABAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E2B5092C1F5CDBD900DCABAF /* Build configuration list for PBXNativeTarget "AEP CICOUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2B5092D1F5CDBD900DCABAF /* Debug */,
+				E2B5092E1F5CDBD900DCABAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2B508F61F5CDBD900DCABAF /* Project object */;
+}
