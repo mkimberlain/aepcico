@@ -4,6 +4,10 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>CICO requires a GPS signal.  It will NOT work without it.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>CICO requires a GPS signal.  It will NOT work without it.</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>

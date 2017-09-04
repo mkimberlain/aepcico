@@ -14,6 +14,7 @@
 		E2B5090C1F5CDBD900DCABAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2B5090A1F5CDBD900DCABAF /* LaunchScreen.storyboard */; };
 		E2B509171F5CDBD900DCABAF /* AEP_CICOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B509161F5CDBD900DCABAF /* AEP_CICOTests.swift */; };
 		E2B509221F5CDBD900DCABAF /* AEP_CICOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B509211F5CDBD900DCABAF /* AEP_CICOUITests.swift */; };
+		E2D86F161F5CDDC900806280 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2D86F151F5CDDC900806280 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		E2B5091D1F5CDBD900DCABAF /* AEP CICOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AEP CICOUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2B509211F5CDBD900DCABAF /* AEP_CICOUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AEP_CICOUITests.swift; sourceTree = "<group>"; };
 		E2B509231F5CDBD900DCABAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2D86F151F5CDDC900806280 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2D86F161F5CDDC900806280 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 				E2B509151F5CDBD900DCABAF /* AEP CICOTests */,
 				E2B509201F5CDBD900DCABAF /* AEP CICOUITests */,
 				E2B508FF1F5CDBD900DCABAF /* Products */,
+				E2D86F141F5CDDC900806280 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +127,14 @@
 				E2B509231F5CDBD900DCABAF /* Info.plist */,
 			);
 			path = "AEP CICOUITests";
+			sourceTree = "<group>";
+		};
+		E2D86F141F5CDDC900806280 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2D86F151F5CDDC900806280 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -516,6 +528,7 @@
 				E2B509281F5CDBD900DCABAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E2B509291F5CDBD900DCABAF /* Build configuration list for PBXNativeTarget "AEP CICOTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +537,7 @@
 				E2B5092B1F5CDBD900DCABAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E2B5092C1F5CDBD900DCABAF /* Build configuration list for PBXNativeTarget "AEP CICOUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +546,7 @@
 				E2B5092E1F5CDBD900DCABAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,63 +1,104 @@
 {
   "images" : [
     {
+      "size" : "20x20",
       "idiom" : "iphone",
-      "size" : "29x29",
+      "filename" : "AppIcon-40x40@1x.png",
       "scale" : "2x"
     },
     {
       "idiom" : "iphone",
-      "size" : "29x29",
+      "size" : "20x20",
       "scale" : "3x"
     },
     {
+      "size" : "29x29",
       "idiom" : "iphone",
-      "size" : "40x40",
+      "filename" : "AppIcon-29x29@2x 00-36-49-725.png",
       "scale" : "2x"
     },
     {
+      "size" : "29x29",
       "idiom" : "iphone",
-      "size" : "40x40",
+      "filename" : "AppIcon-29x29@3x 1.02.55 AM.png",
       "scale" : "3x"
     },
     {
+      "size" : "40x40",
       "idiom" : "iphone",
+      "filename" : "AppIcon-40x40@2x 1.02.55 AM.png",
+      "scale" : "2x"
+    },
+    {
+      "size" : "40x40",
+      "idiom" : "iphone",
+      "filename" : "AEP-CICO-Icon120.png",
+      "scale" : "3x"
+    },
+    {
       "size" : "60x60",
+      "idiom" : "iphone",
+      "filename" : "AppIcon-60x60@2x 00-34-02-367.png",
       "scale" : "2x"
     },
     {
-      "idiom" : "iphone",
       "size" : "60x60",
+      "idiom" : "iphone",
+      "filename" : "AppIcon-60x60@3x 00-37-43-357.png",
       "scale" : "3x"
     },
     {
+      "size" : "20x20",
       "idiom" : "ipad",
-      "size" : "29x29",
+      "filename" : "AppIcon-20x20@1x 1.02.55 AM.png",
       "scale" : "1x"
     },
     {
+      "size" : "20x20",
       "idiom" : "ipad",
-      "size" : "29x29",
+      "filename" : "AppIcon-40x40@1x 00-35-22-406.png",
       "scale" : "2x"
     },
     {
+      "size" : "29x29",
       "idiom" : "ipad",
-      "size" : "40x40",
+      "filename" : "AppIcon-29x29@1x.png",
       "scale" : "1x"
     },
     {
+      "size" : "29x29",
       "idiom" : "ipad",
-      "size" : "40x40",
+      "filename" : "AppIcon-29x29@2x 00-36-49-726.png",
       "scale" : "2x"
     },
     {
+      "size" : "40x40",
       "idiom" : "ipad",
-      "size" : "76x76",
+      "filename" : "AppIcon-40x40@1x 00-35-22-407.png",
       "scale" : "1x"
     },
     {
+      "size" : "40x40",
       "idiom" : "ipad",
+      "filename" : "AppIcon-40x40@2x-2.png",
+      "scale" : "2x"
+    },
+    {
       "size" : "76x76",
+      "idiom" : "ipad",
+      "filename" : "AppIcon-76x76@1x 00-36-01-844.png",
+      "scale" : "1x"
+    },
+    {
+      "size" : "76x76",
+      "idiom" : "ipad",
+      "filename" : "AppIcon-76x76@2x 00-33-38-995.png",
+      "scale" : "2x"
+    },
+    {
+      "size" : "83.5x83.5",
+      "idiom" : "ipad",
+      "filename" : "AppIcon-83.5x83.5@2x 00-37-08-675.png",
       "scale" : "2x"
     }
   ],
