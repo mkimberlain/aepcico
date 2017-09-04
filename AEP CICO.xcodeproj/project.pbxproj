@@ -35,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E22C1E581F5D07F4008611B0 /* AEP CICO.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "AEP CICO.entitlements"; sourceTree = "<group>"; };
 		E2B508FE1F5CDBD900DCABAF /* AEP CICO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AEP CICO.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2B509011F5CDBD900DCABAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2B509031F5CDBD900DCABAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +102,7 @@
 		E2B509001F5CDBD900DCABAF /* AEP CICO */ = {
 			isa = PBXGroup;
 			children = (
+				E22C1E581F5D07F4008611B0 /* AEP CICO.entitlements */,
 				E2B509011F5CDBD900DCABAF /* AppDelegate.swift */,
 				E2B509031F5CDBD900DCABAF /* ViewController.swift */,
 				E2B509051F5CDBD900DCABAF /* Main.storyboard */,
@@ -207,6 +209,11 @@
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = PEENMZFAW5;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					E2B509111F5CDBD900DCABAF = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -429,6 +436,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "AEP CICO/AEP CICO.entitlements";
 				DEVELOPMENT_TEAM = PEENMZFAW5;
 				INFOPLIST_FILE = "AEP CICO/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -442,6 +450,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "AEP CICO/AEP CICO.entitlements";
 				DEVELOPMENT_TEAM = PEENMZFAW5;
 				INFOPLIST_FILE = "AEP CICO/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
