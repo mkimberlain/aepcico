@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  AEP CICO
+//  American Electric Power Check In / Check Out
 //
 //  Created by Matt Kimberlain on 9/3/17.
 //  Copyright © 2017 Matt Kimberlain. All rights reserved.
@@ -9,6 +9,7 @@
 import UIKit
 import WebKit
 import CoreLocation
+
 
 class ViewController: UIViewController,WKNavigationDelegate, CLLocationManagerDelegate {
     var webView: WKWebView!
